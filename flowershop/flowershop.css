@@ -1,0 +1,96 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;0,900;1,200;1,500;1,600&family=Roboto:ital,wght@1,100&family=Rubik:wght@600&family=Varta&display=swap');
+
+
+*{
+    margin: 0% ;
+    padding: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    transition: all .45s ease !important;
+    
+}
+body{
+    background-color: aliceblue;
+    font-family: 'Poppins', sans-serif  !important;
+
+}
+.a:hover{
+   color:#ff3399 !important;
+  
+}
+.card-button:hover{
+    transition: all 1s ease !important ;
+    width:100px !important;
+    background:#ff3399 !important;
+    color: azure !important; 
+}
+.welcome{
+    background-color:#FFC5CB;
+}
+form{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+.form-group {
+    width: 300px;
+    margin-bottom: 20px;
+}
+.form-group input,textarea {
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+    padding: 10px;
+    outline: none;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color:#ff3399;
+    
+}
+::placeholder{
+    font-size: 1.5rem;
+    font-weight:600 ;
+}
+
+
+button{
+    width: 30%;
+    padding: 6px;
+    margin-bottom: 20px !important;
+    background-color: burlywood;
+    font-size:15px;
+    border-radius: 5px;
+}
+   .img-resize{
+      width: 100px !important;
+      height: 350px !important;
+      object-fit: scale-down;
+
+   }
+   .resize:hover{
+    box-shadow: 5px 5px 10px black, -5px -5px 10px black;
+    border-radius: 5px;
+    border: none !important;
+    transition: all .50s ease;
+
+     
+   }
+.span:hover{
+       color: rgb(255, 221, 0) !important;
+       
+}
+
+
+.error{
+        color: red;
+        font-size: 10px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-transform: capitalize;
+}
+
